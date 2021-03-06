@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtinformacion"
+        android:layout_width="385dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="461dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="3dp"
+        android:layout_x="15dp"
+        android:layout_y="26dp"
+        android:scrollbars="vertical"
+        android:text="Cargue una imagen con el texto de un pais para reconocimento de texto"
+        android:textSize="20sp"
+        android:verticalScrollbarPosition="right" />
+
+    <ImageView
+        android:id="@+id/imvImagen"
+        android:layout_width="390dp"
+        android:layout_height="288dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_x="13dp"
+        android:layout_y="98dp"
+        android:background="#ACA3A3" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginRight="139dp"
+        android:layout_marginBottom="242dp"
+        android:layout_x="241dp"
+        android:layout_y="391dp"
+        android:onClick="selecImg"
+        android:text="Cargar" />
+
+    <EditText
+        android:id="@+id/textbuscar"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_x="174dp"
+        android:layout_y="457dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="68dp"
+        android:layout_y="462dp"
+        android:text="Bandera: "
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnMostar"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="204dp"
+        android:layout_x="108dp"
+        android:layout_y="517dp"
+        android:onClick="mostrarInfo"
+        android:text="Mostrar Info" />
+
+    <Button
+        android:id="@+id/btnProcesar"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="204dp"
+        android:layout_x="67dp"
+        android:layout_y="391dp"
+        android:onClick="ejecutarOpcion"
+        android:text="procesar" />
+
+</AbsoluteLayout>

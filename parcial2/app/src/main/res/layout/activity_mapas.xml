@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mapas">
+
+    <TextView
+        android:id="@+id/pais"
+        android:layout_width="125dp"
+        android:layout_height="31dp"
+        android:layout_x="274dp"
+        android:layout_y="419dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/Pref"
+        android:layout_width="125dp"
+        android:layout_height="31dp"
+        android:layout_x="274dp"
+        android:layout_y="494dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/capital"
+        android:layout_width="125dp"
+        android:layout_height="31dp"
+        android:layout_x="274dp"
+        android:layout_y="457dp"
+        android:text="" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="201dp"
+        android:layout_y="0dp"
+        tools:context=".MapsActivity" />
+
+    <ImageView
+        android:id="@+id/imabandera"
+        android:layout_width="167dp"
+        android:layout_height="134dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="543dp"
+        android:layout_marginBottom="54dp"
+        android:layout_x="16dp"
+        android:layout_y="419dp"
+        app:srcCompat="@drawable/common_full_open_on_phone" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_x="186dp"
+        android:layout_y="494dp"
+        android:text="PREFIJO" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="54dp"
+        android:layout_height="31dp"
+        android:layout_x="186dp"
+        android:layout_y="419dp"
+        android:text="PAIS: " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_x="186dp"
+        android:layout_y="457dp"
+        android:text="CAPITAL" />
+
+</AbsoluteLayout>
